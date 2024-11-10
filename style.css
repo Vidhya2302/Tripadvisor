@@ -1,0 +1,464 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Gabarito";
+    font-size: 20px;
+
+}
+
+.header {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.header__title {
+    display: flex;
+    align-items: center;
+    animation-name:zoom;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+}
+@keyframes zoom {
+    0%{
+        transform: scale(0);
+        opacity:0;
+    }
+    100%{
+        transform:scale(1);
+        opacity:1;
+    }
+}
+.tripadvisor__img {
+    height: 50px;
+    width: 50px;
+}
+
+.header__des {
+    display: flex;
+    gap: 10px;
+
+}
+
+.header__des__one {
+    display: flex;
+    gap: 10px;
+    margin-right: 10%;
+    align-items: center;
+
+}
+
+.header__but {
+    height: 40px;
+    width: 70px;
+
+}
+
+.header__signin {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    height: 40px;
+    width: 70px;
+}
+
+.one {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.one__des {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+/* navbare */
+.navbar__search {
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 40px;
+    height: 50%;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 22%;
+    margin-top: 30px;
+    box-shadow: 2px 2px 2px 2px #888888;
+
+}
+
+.navbar__search__img{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 60%;
+}
+
+.navbar input {
+    border: none;
+    height: fit-content;
+    width: 800%;
+}
+.navbar input:hover{
+    border:white;
+}
+
+.navbar__search__button {
+    background-color: #34E0A1;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    font-size: large;
+}
+
+
+.frontimg {
+    position: relative;
+
+}
+.frontimg{
+    width:90%;
+    margin:2%;
+    margin-left:75px;
+}
+
+.frontimg__des {
+    position: absolute;
+    border: solid transparent 2px;
+    background-color:transparent;
+    color:white;
+    width: 400px;
+    padding: 10px;
+    top: 200px;
+    left: 200px;
+
+}
+.frontimg__but{
+    background-color: plum;
+    width:90px;
+    height:40px;
+    border-radius:20px;
+}
+/* restaurant */
+.Restaurant {
+    margin-top: 50px;
+    margin-left: 120px;
+    padding: 10px;
+}
+
+.Restaurant__title {
+    padding: 10px;
+    
+}
+
+.Restaurant__title__subtitle {
+    padding: 10px;
+
+}
+
+.Restaurant__des {
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+
+.Restaurant__img {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 150px;
+}
+
+.Restaurant__img__one {
+    position: relative;
+    width: 20%;
+
+}
+
+.Rimg__one {
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.Restaurant__img__two {
+    position: relative;
+    width: 20%;
+}
+
+.Rimg__two {
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.Restaurant__img__three {
+    position: relative;
+    width: 20%;
+
+}
+
+.Rimg__three {
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.Restaurant__img__four {
+    position: relative;
+    width: 20%;
+}
+
+.Rimg__four {
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* travel creators */
+
+.travelcreators {
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.travelcreators__des {
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+
+.travelcreators__des__one {
+    padding: 10px;
+
+}
+
+.travelcreators__des__two {
+    padding: 10px;
+}
+
+.travelcreators__img {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    left: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+/*chennai */
+.chennai{
+    margin-top: 50px;
+}
+
+.chennai__des {
+    margin-left: 120px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.chennai__img {
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+
+}
+.chennai__content{
+    height:120px;
+    width:220px;
+
+}
+
+/* explore */
+.explore {
+    margin-top: 100px;
+    padding: 10px;
+}
+
+.explore__img {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    left: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.explore__des {
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+.explore__content
+{
+    width: 300px;
+    height:20px;
+}
+
+/* next holiday */
+.nextholiday {
+    margin-top: 50px;
+    margin-left: 120px;
+    padding: 10px;
+}
+
+.nextholiday__title {
+    padding: 10px;
+}
+
+.nextholiday__title__subtitle {
+    padding: 10px;
+
+}
+
+.nextholiday__des {
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+
+.nextholiday__img {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 150px;
+}
+
+.nextholiday__img__one {
+    position: relative;
+    width: 20%;
+
+}
+
+.nimg__one {
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.nextholiday__img__two {
+    position: relative;
+    width: 20%;
+}
+
+.nimg__two {
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.nextholiday__img__three {
+    position: relative;
+    width: 20%;
+
+}
+
+.nimg__three {
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.nextholiday__img__four {
+    position: relative;
+    width: 20%;
+}
+
+.nimg__four {
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* bike */
+.bike{
+    background-color:#F2ECF9;
+    height:600px;
+    width:1000px;
+    border: solid #decbf3 2px;
+    border-radius:10px;
+    position: relative;
+    margin:50px;
+    left:220px;
+   
+}
+.bike__icon{
+    display: flex;
+    align-items: center;
+}
+.bike__des{
+    position: absolute;
+    top:150px;
+    left:700px;
+
+}
+.bike__button{
+    background-color:black;
+    border-radius:20px;
+    color:white;
+    height:40px;
+    width:100px;
+}
+/* footer */
+.footer{
+    background-color: aliceblue;
+    color: black;
+    padding: 30px;
+    margin:30px;
+}
+.footer__one{
+    display: flex;
+    gap:70px;
+    padding:30px;
+    
+}
+
+.inr{
+    width:50px;
+    height:20px;
+}
